@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#295859"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:text="User name : "
+            android:textStyle="bold"
+            android:textColor="#ffffff"/>
+        <EditText
+            android:id="@+id/editUserName_id"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:text="Password : "
+            android:textStyle="bold"
+            android:textColor="#ffffff"/>
+        <EditText
+            android:id="@+id/editTextPassword_id"
+            android:inputType="numberPassword"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonSignIn_id"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="Sign In"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonSignUp_id"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="Sign Up Here"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+</LinearLayout>
